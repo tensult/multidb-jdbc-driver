@@ -14,5 +14,5 @@ preferred_role:	<IAM-Role-ARN>
 ```
 ## [Samples](https://github.com/tensult/multidb-jdbc-driver/tree/master/src/main/java/com/tensult/samples)
 
-## Re-Generation of driver
-When you update the code, to regenerate the jar use `maven install` command.
+## Generation of driver
+To generate the jar use `maven install` command.
