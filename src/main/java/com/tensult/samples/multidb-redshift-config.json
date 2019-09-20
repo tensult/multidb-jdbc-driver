@@ -1,0 +1,8 @@
+{
+	"connectionUrls": {
+		"eightytwoeast": {
+			"url": "jdbc:redshift:iam://redshif-cluster2.ap-south-1.redshift.amazonaws.com:5439/eightytwoeast"
+		}
+	},
+	"connectionChooserScript":"(function(){if(sql.indexOf('employees') !== -1) {return 'eightytwoeast';}})();"
+}

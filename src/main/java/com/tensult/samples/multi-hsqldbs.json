@@ -1,0 +1,6 @@
+{
+	"connectionUrls": {
+		"db2": {"url": "jdbc:hsqldb:hsql://localhost:9002/db2"}
+	},
+	"connectionChooserScript":"(function(){if(sql.indexOf('employees') !== -1) {return 'db2';}})();"
+}
