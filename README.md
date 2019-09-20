@@ -1,6 +1,6 @@
-==Introduction==
+## Introduction
 This driver can connect to multiple different databases and also supports connection routing using customizable script.
-==Usage==
+## Usage
 While adding driver in SQLWorkbench, refer to tensult-multidb-jdbc-drvier-*.jar file inside the target folder 
 and select "com.tensult.jdbc.MultiDatabasesDriver" as Driver class name. 
 
@@ -11,7 +11,7 @@ plugin_name:	com.amazon.redshift.plugin.AdfsCredentialsProvider
 idp_host:	<IDP hostname>
 preferred_role:	<IAM-Role-ARN>
 
-==Samples==
+## [Samples](https://github.com/tensult/multidb-jdbc-driver/tree/master/src/main/java/com/tensult/samples)
 
-==Generation==
+## Re-Generation of driver
 When you update the code, to regenerate the jar use `maven install` command.
